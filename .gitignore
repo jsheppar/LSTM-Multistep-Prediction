@@ -1,0 +1,573 @@
+
+pit_data/lidar/LDQ-43123E8/.DS_Store
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/.DS_Store
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/AboutLDQSeriesPublications.pdf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/.DS_Store
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8.aux.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/dblbnd.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/hdr.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/log
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/metadata.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/prj.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/sta.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/w001001.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/be43123e8/w001001x.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/info/arc.dir
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/info/arc0004.dat
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/info/arc0004.nit
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/info/arc0005.dat
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Bare_Earth/info/arc0005.nit
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/.DS_Store
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/dblbnd.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/hdr.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/log
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/metadata.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/prj.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/sta.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/w001001.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/hh43123e8/w001001x.adf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/info/arc.dir
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/info/arc0004.dat
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/info/arc0004.nit
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/info/arc0005.dat
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Highest_Hit/info/arc0005.nit
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8101.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8101.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8101.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8101.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8102.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8102.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8102.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8102.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8103.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8103.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8103.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8103.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8104.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8104.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8104.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8104.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8105.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8105.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8105.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8105.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8106.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8106.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8106.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8106.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8107.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8107.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8107.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8107.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8108.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8108.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8108.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8108.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8109.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8109.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8109.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8109.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8110.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8110.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8110.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8110.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8111.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8111.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8111.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8111.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8112.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8112.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8112.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8112.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8113.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8113.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8113.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8113.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8114.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8114.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8114.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8114.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8115.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8115.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8115.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8115.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8116.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8116.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8116.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8116.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8117.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8117.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8117.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8117.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8118.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8118.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8118.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8118.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8119.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8119.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8119.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8119.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8120.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8120.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8120.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8120.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8121.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8121.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8121.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8121.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8122.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8122.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8122.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8122.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8123.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8123.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8123.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8123.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8124.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8124.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8124.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8124.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8125.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8125.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8125.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8125.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8201.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8201.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8201.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8201.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8202.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8202.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8202.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8202.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8203.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8203.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8203.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8203.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8204.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8204.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8204.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8204.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8205.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8205.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8205.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8205.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8206.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8206.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8206.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8206.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8207.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8207.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8207.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8207.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8208.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8208.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8208.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8208.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8209.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8209.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8209.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8209.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8210.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8210.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8210.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8210.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8211.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8211.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8211.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8211.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8212.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8212.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8212.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8212.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8213.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8213.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8213.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8213.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8214.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8214.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8214.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8214.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8215.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8215.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8215.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8215.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8216.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8216.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8216.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8216.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8217.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8217.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8217.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8217.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8218.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8218.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8218.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8218.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8219.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8219.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8219.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8219.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8220.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8220.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8220.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8220.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8221.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8221.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8221.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8221.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8222.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8222.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8222.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8222.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8223.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8223.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8223.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8223.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8224.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8224.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8224.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8224.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8225.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8225.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8225.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8225.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8301.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8301.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8301.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8301.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8302.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8302.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8302.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8302.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8303.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8303.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8303.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8303.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8304.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8304.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8304.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8304.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8305.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8305.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8305.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8305.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8306.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8306.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8306.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8306.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8307.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8307.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8307.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8307.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8308.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8308.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8308.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8308.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8309.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8309.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8309.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8309.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8310.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8310.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8310.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8310.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8311.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8311.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8311.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8311.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8312.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8312.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8312.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8312.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8313.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8313.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8313.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8313.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8314.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8314.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8314.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8314.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8315.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8315.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8315.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8315.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8316.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8316.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8316.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8316.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8317.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8317.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8317.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8317.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8318.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8318.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8318.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8318.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8319.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8319.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8319.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8319.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8320.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8320.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8320.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8320.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8321.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8321.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8321.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8321.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8322.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8322.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8322.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8322.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8323.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8323.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8323.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8323.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8324.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8324.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8324.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8324.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8325.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8325.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8325.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8325.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8401.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8401.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8401.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8401.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8402.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8402.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8402.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8402.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8403.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8403.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8403.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8403.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8404.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8404.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8404.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8404.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8405.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8405.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8405.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8405.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8406.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8406.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8406.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8406.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8407.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8407.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8407.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8407.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8408.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8408.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8408.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8408.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8409.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8409.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8409.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8409.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8410.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8410.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8410.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8410.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8411.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8411.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8411.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8411.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8412.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8412.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8412.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8412.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8413.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8413.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8413.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8413.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8414.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8414.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8414.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8414.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8415.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8415.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8415.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8415.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8416.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8416.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8416.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8416.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8417.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8417.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8417.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8417.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8418.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8418.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8418.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8418.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8419.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8419.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8419.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8419.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8420.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8420.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8420.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8420.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8421.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8421.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8421.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8421.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8422.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8422.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8422.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8422.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8423.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8423.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8423.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8423.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8424.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8424.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8424.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8424.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8425.aux
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8425.tfw
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8425.tif
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Intensity/43123E8425.tif.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Metadata/2009_OLC_SouthCoast_metadata.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Metadata/OLC South Coast Delivery 11 12 13  Acceptance Report.pdf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Metadata/OLC_South_Coast_Lidar_Report_2009.pdf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/README.txt
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_1-100th_Quadrangle_Index.dbf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_1-100th_Quadrangle_Index.prj
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_1-100th_Quadrangle_Index.sbn
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_1-100th_Quadrangle_Index.sbx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_1-100th_Quadrangle_Index.shp
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_1-100th_Quadrangle_Index.shp.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_1-100th_Quadrangle_Index.shx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_Quadrangle_Index.dbf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_Quadrangle_Index.prj
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_Quadrangle_Index.sbn
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_Quadrangle_Index.sbx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_Quadrangle_Index.shp
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_Quadrangle_Index.shp.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_Quadrangle_Index.shx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_0_75_Minute_Quads.dbf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_0_75_Minute_Quads.prj
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_0_75_Minute_Quads.sbn
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_0_75_Minute_Quads.sbx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_0_75_Minute_Quads.shp
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_0_75_Minute_Quads.shp.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_0_75_Minute_Quads.shx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_7_5_Minute_Quads.dbf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_7_5_Minute_Quads.prj
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_7_5_Minute_Quads.sbn
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_7_5_Minute_Quads.sbx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_7_5_Minute_Quads.shp
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_7_5_Minute_Quads.shp.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_7_5_Minute_Quads.shx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_0_75_OGIC_HARN.dbf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_0_75_OGIC_HARN.prj
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_0_75_OGIC_HARN.sbn
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_0_75_OGIC_HARN.sbx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_0_75_OGIC_HARN.shp
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_0_75_OGIC_HARN.shp.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_0_75_OGIC_HARN.shx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_7_5_OGIC_HARN.dbf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_7_5_OGIC_HARN.prj
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_7_5_OGIC_HARN.sbn
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_7_5_OGIC_HARN.sbx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_7_5_OGIC_HARN.shp
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_7_5_OGIC_HARN.shp.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_7_5_OGIC_HARN.shx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_OGIC_HARN.dbf
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_OGIC_HARN.prj
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_OGIC_HARN.sbn
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_OGIC_HARN.sbx
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_OGIC_HARN.shp
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_OGIC_HARN.shp.xml
+pit_data/lidar/LDQ-43123E8/2009_OLC_South Coast/Shapefiles/OLC_SOUTH_COAST_TAF_OGIC_HARN.shx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/.DS_Store
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/AboutLDQSeriesPublications.pdf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/.DS_Store
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8.aux.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8.ovr
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8/dblbnd.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8/hdr.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8/metadata.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8/prj.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8/sta.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8/w001001.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/be43123e8/w001001x.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/info/arc.dir
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/info/arc0000.dat
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/info/arc0000.nit
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/info/arc0001.dat
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Bare_Earth/info/arc0001.nit
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8.aux.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8.ovr
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8/dblbnd.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8/hdr.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8/metadata.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8/prj.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8/sta.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8/w001001.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/hh43123e8/w001001x.adf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/info/arc.dir
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/info/arc0000.dat
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/info/arc0000.nit
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/info/arc0001.dat
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Highest_Hit/info/arc0001.nit
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Intensity/43123E8.tfw
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Intensity/43123E8.tif
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Intensity/43123E8.tif.aux.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Intensity/43123E8.tif.ovr
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Intensity/43123E8.tif.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Intensity/Thumbs.db
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Metadata/OLC_UPPER_UMPQUA_2015_ACCEPTANCE_REPORT.pdf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Metadata/OLC_Upper_Umpqua_2015_Metadata.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Metadata/OLC_UPPER_UMPQUA_DATA_REPORT_2015.pdf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/README.txt
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_1-100th_Quadrangle_Index.dbf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_1-100th_Quadrangle_Index.prj
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_1-100th_Quadrangle_Index.sbn
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_1-100th_Quadrangle_Index.sbx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_1-100th_Quadrangle_Index.shp
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_1-100th_Quadrangle_Index.shp.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_1-100th_Quadrangle_Index.shx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_Quadrangle_Index.dbf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_Quadrangle_Index.prj
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_Quadrangle_Index.sbn
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_Quadrangle_Index.sbx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_Quadrangle_Index.shp
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_Quadrangle_Index.shp.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_Quadrangle_Index.shx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.CPG
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.dbf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.prj
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.sbn
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.sbx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.shp
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.shp.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC.shx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.CPG
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.dbf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.prj
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.sbn
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.sbx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.shp
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.shp.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_0375_QUADS_NAD83_2011_OGIC_2B.shx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.CPG
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.dbf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.prj
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.sbn
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.sbx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.shp
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.shp.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_7_5_USGS_QUADS_NAD83_2011_OGIC.shx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.cpg
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.dbf
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.prj
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.sbn
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.sbx
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.shp
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.shp.xml
+pit_data/lidar/LDQ-43123E8/2015_OLC_Upper Umpqua 3DEP/Shapefiles/OLC_UPPER_UMPQUA_TAF_NAD83_2011_OGIC.shx
