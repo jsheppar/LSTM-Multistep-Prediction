@@ -19,7 +19,7 @@ from tqdm.keras import TqdmCallback
 batch = None
 n_units = 32
 
-def rescale(feature_data,test_targets,predictions, scaling_object,index):
+def rescale(feature_data, test_targets, predictions, scaling_object_features, scaling_object_targets, index):
     '''Flattens and rescales test and prediction data back to the original scale.
     Given that the test data and predictions do not have the same shape as the original feature data, we need 
     to "pad" these two datasets with the original column numbers of the feature data, 
@@ -32,12 +32,13 @@ def rescale(feature_data,test_targets,predictions, scaling_object,index):
     for the original transformation'''
     
     #flatten predictions and test data
-    predict_flat = predictions.reshape(predictions.shape[0]*predictions.shape[1],predictions.shape[2])
-    y_test_flat = test_targets.reshape(test_targets.shape[0]*test_targets.shape[1],test_targets.shape[2])
-
+    predict_flat = predictions.reshape(predictions.shape[0]*predictions.shape[1], predictions.shape[2])
+    y_test_flat = test_targets.reshape(test_targets.shape[0]*test_targets.shape[1], test_targets.shape[2])
+    print(predict_flat.shape)
+    print(y_test_flat.shape)
     #flatten the features dataframe. This has the dimensions we want.
-    flattened_features = pd.DataFrame(feature_data.reshape(feature_data.shape[0]*feature_data.shape[1],
-                                                           feature_data.shape[2]))
+    # flattened_features = pd.DataFrame(feature_data.reshape(feature_data.shape[0]*feature_data.shape[1],
+    #                                                       feature_data.shape[2]))
     
     #if we want to predict long sequences these will likely be longer than the length of the features.
     #we just add some zeros here to pad out the feature length to match. We'll then convert these to NaN's
@@ -45,45 +46,45 @@ def rescale(feature_data,test_targets,predictions, scaling_object,index):
     #structure of the feature data--not the values. This is the most foolproof method
     #I've found through trial and error.
     
-    if len(flattened_features) < len(y_test_flat):
-        print('Length of targets exceeds length of features. Now padding...\n')
-        extra_rows = pd.DataFrame(np.zeros((len(y_test_flat),flattened_features.shape[1])))
-        flattened_features = pd.concat([flattened_features,extra_rows],axis=0)
-        flattened_features[flattened_features==0]=np.nan
+    # if len(flattened_features) < len(y_test_flat):
+    #     print('Length of targets exceeds length of features. Now padding...\n')
+    #     extra_rows = pd.DataFrame(np.zeros((len(y_test_flat), flattened_features.shape[1])))
+    #     flattened_features = pd.concat([flattened_features, extra_rows], axis=0)
+    #     flattened_features[flattened_features==0]=np.nan
         
     #make a start column, this is the index where we begin to repopulate the target cols with the 
     #data we want to rescale
-    start_col = feature_data.shape[2]-test_targets.shape[2]
-    total_col = feature_data.shape[2]
+    # start_col = feature_data.shape[2]-test_targets.shape[2]
+    # total_col = feature_data.shape[2]
     
     #make trimmed feature copies of equal length as the test data and predictions lengths, 
     #and leave out the original target data... we will replace these cols with the test and prediction data
-    flattened_features_test_copy = flattened_features.iloc[:len(y_test_flat),:start_col]
-    flattened_features_pred_copy = flattened_features.iloc[:len(y_test_flat),:start_col]
+    # flattened_features_test_copy = flattened_features.iloc[:len(y_test_flat), :start_col]
+    # flattened_features_pred_copy = flattened_features.iloc[:len(y_test_flat), :start_col]
     #print((flattened_features_pred_copy.values))
     
-    for i in range(start_col,total_col):
-        #reassign targets cols
-        flattened_features_test_copy[i] = y_test_flat[:,i-start_col] 
-        flattened_features_pred_copy[i] = predict_flat[:,i-start_col]
-        #by specifying 'i - start col', we are making sure the target column being 
-        #repopulated is the matching target taken from the test data or predictions.
-        #Ex: if the start col is 4, then we want to assign the first column of the test and pred data--
-        #this is index 0, and 4-4 = 0.
+    # for i in range(start_col, total_col):
+    #     #reassign targets cols
+    #     flattened_features_test_copy[i] = y_test_flat[:, i-start_col] 
+    #     flattened_features_pred_copy[i] = predict_flat[:, i-start_col]
+    #     #by specifying 'i - start col', we are making sure the target column being 
+    #     #repopulated is the matching target taken from the test data or predictions.
+    #     #Ex: if the start col is 4, then we want to assign the first column of the test and pred data--
+    #     #this is index 0, and 4-4 = 0.
         
     #We now have the correct dimensions, so we can FINALLY rescale
-    y_test_rescale = scaling_object.inverse_transform(flattened_features_test_copy)
-    preds_rescale = scaling_object.inverse_transform(flattened_features_pred_copy)
+    y_test_rescale = scaling_object_targets.inverse_transform(y_test_flat)
+    preds_rescale = scaling_object_targets.inverse_transform(predict_flat)
     
     #just grab the target cols.
-    y_test_rescale = y_test_rescale[:,start_col:]
-    preds_rescale = preds_rescale[:,start_col:]
+    # y_test_rescale = y_test_rescale[:, start_col:]
+    # preds_rescale = preds_rescale[:, start_col:]
     
-    preds_rescale = pd.DataFrame(preds_rescale,index=index)
-    y_test_rescale = pd.DataFrame(y_test_rescale,index=index)
+    preds_rescale = pd.DataFrame(preds_rescale, index=index)
+    y_test_rescale = pd.DataFrame(y_test_rescale, index=index)
     
     
-     #before we return the dataframes, check and see if predictions or test data have null values.
+    #before we return the dataframes, check and see if predictions or test data have null values.
     if preds_rescale.isnull().values.any()==True:
         print('Keras predictions have NaN values present. Deleting...')
         print('Current shape: ' + str(preds_rescale.shape))
@@ -113,9 +114,9 @@ def rescale(feature_data,test_targets,predictions, scaling_object,index):
     
     print('test data new shape: ' + str(y_test_rescale.shape))
     print('prediction new shape: ' + str(preds_rescale.shape))
-    return y_test_rescale,preds_rescale
+    return y_test_rescale, preds_rescale
 
-def lstm_prep(data_index,data,ntargets,ninputs,noutputs=1,show_progress=False):
+def lstm_prep(data_index, data, target_data, ntargets, ninputs, noutputs=1, show_progress=False):
     '''Prepares and reshapes data for use with an LSTM. Outputs features, targets,
     and the original data indices of your target values for visualization later. Requires that 
     the targets are the last N columns in your dataset.
@@ -130,22 +131,23 @@ def lstm_prep(data_index,data,ntargets,ninputs,noutputs=1,show_progress=False):
     So far I have yet to see a need for more samples, which I understand is why the 
     moving window approach is typicallyimplemented.'''
     
-    target_data = data[:,-ntargets:]
-    features = np.empty((ninputs,data.shape[1]), int)
-    targets = np.empty((noutputs,ntargets),int)
-    for i in range(ninputs,(len(data)-noutputs),noutputs): 
+    #target_data = data[:,-ntargets:]
+    target_data = target_data
+    features = np.empty((ninputs, data.shape[1]), int)
+    targets = np.empty((noutputs, ntargets), int)
+    for i in range(ninputs, (len(data)-noutputs), noutputs): 
         if show_progress==True:
-            print('current index: '+str(i))
+            print('current index: ' + str(i))
         
-        temp_feature_matrix = data[(i-ninputs):i]
+        temp_feature_matrix = data[(i-ninputs):i,:]
         temp_target_matrix = target_data[(i):(i+noutputs)]
         
         features = np.vstack((features, temp_feature_matrix))
-        targets = np.vstack((targets,temp_target_matrix))
+        targets = np.vstack((targets, temp_target_matrix))
     
     last_index = i+noutputs
-    features = features.reshape((int(features.shape[0]/ninputs),ninputs,features.shape[1]))
-    targets = targets.reshape(int(targets.shape[0]/noutputs),noutputs,targets.shape[1])
+    features = features.reshape((int(features.shape[0]/ninputs), ninputs, features.shape[1]))
+    targets = targets.reshape(int(targets.shape[0]/noutputs), noutputs, targets.shape[1])
     
     target_indices = data_index[ninputs:last_index]
     
@@ -303,6 +305,7 @@ def OrdinalToDatetime(ordinal):
     dt = date_time + timedelta(days=ordinal-int(ordinal)) - timedelta(days=366) #as our serials start from 0000-01-00, instead of 0001-01-01
     return dt.replace(second=0, microsecond=0, minute=0, hour=dt.hour) +timedelta(hours=dt.minute//30)  #rounds to nearest hour, our data is in hourly increments
 
+
 # Let's define a small function that predicts based on the trained encoder and decoder models
 # Function also adapted from https://github.com/LukeTonin/keras-seq-2-seq-signal-prediction
 def predict(x, encoder_predict_model, decoder_predict_model, num_steps_to_predict, 
@@ -329,7 +332,6 @@ def predict(x, encoder_predict_model, decoder_predict_model, num_steps_to_predic
 
     # Encode the values as a state vector
     enc_outputs_and_states = encoder_predict_model.predict(x, batch_size=batch, verbose=0)
-    #print(len(enc_outputs_and_states))
 
     # The states must be a list
     if not isinstance(enc_outputs_and_states, list):
@@ -337,9 +339,8 @@ def predict(x, encoder_predict_model, decoder_predict_model, num_steps_to_predic
 
     enc_outputs = enc_outputs_and_states[0]
     states = enc_outputs_and_states[1:]
-    #decoder_input = np.zeros((x.shape[0], 1, num_features_to_predict))
-    decoder_input = x[:,-1:,-num_features_to_predict:] 
-    # '-num_features_to_predict:' assumes the targets are the final columns
+
+    decoder_input = x[:,-1:,-num_features_to_predict:] # '-num_features_to_predict:' assumes the targets are the final columns
 
     for _ in range(num_steps_to_predict):
         outputs_and_states = decoder_predict_model.predict([x, decoder_input] + states, batch_size=batch, verbose=0)
@@ -348,7 +349,7 @@ def predict(x, encoder_predict_model, decoder_predict_model, num_steps_to_predic
 
         # add predicted value
         y_predicted.append(output)
+        #print(np.shape(y_predicted))
 
 
     return np.concatenate(y_predicted, axis=1)
-    
