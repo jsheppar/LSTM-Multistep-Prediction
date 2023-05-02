@@ -14,6 +14,7 @@ from tensorflow.keras.wrappers.scikit_learn import KerasRegressor
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
+from tqdm import trange
 from tqdm.keras import TqdmCallback
 
 batch = None
@@ -181,7 +182,7 @@ def lstm_prep_no_pp(data_index, data, target_data, ntargets, ninputs, noutputs=1
     the targets are the last N columns in your dataset.
     
     NOTE: The applies a moving window approach at intervals of the output steps, such that 
-    you group the previous timesteps of inputs for your features (whatever length you choose),set the next 
+    you group the previous timesteps of inputs for your features (whatever length you choose), set the next 
     X timesteps of target values as outputs (again, whatever you want), and then move the window X (noutputs)
     timesteps in the future to repeat the process. Analogous to a cnn kernal with a stride equal to the output length. 
     I wrote this to automate and quickly change between varying input and output sequence lengths, 
@@ -194,7 +195,7 @@ def lstm_prep_no_pp(data_index, data, target_data, ntargets, ninputs, noutputs=1
     target_data = target_data
     features = np.empty((ninputs, data.shape[1]), int)
     targets = np.empty((noutputs, ntargets), int)
-    for i in range(ninputs, (len(data)-noutputs), noutputs): 
+    for i in trange(ninputs, (len(data)-noutputs), noutputs): 
         if show_progress==True:
             print('current index: ' + str(i))
         
@@ -230,7 +231,7 @@ def lstm_prep_w_pp(data_index, data, ntargets, ninputs, noutputs=1, show_progres
     target_data = data[:,-ntargets:]
     features = np.empty((ninputs, data.shape[1]), int)
     targets = np.empty((noutputs, ntargets), int)
-    for i in range(ninputs, (len(data)-noutputs), noutputs): 
+    for i in trange(ninputs, (len(data)-noutputs), noutputs): 
         if show_progress==True:
             print('current index: ' + str(i))
         
@@ -263,14 +264,27 @@ def rectify_cnn_data(predictions, targets, num_targets, noutputs):
     return preds[noutputs:], tests[noutputs:]
 
 
+# def mse_nan(y_true, y_pred):
+#     masked_true = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_true)
+#     masked_pred = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_pred)
+#     return K.mean(K.square(masked_pred - masked_true), axis=-1)
+
+# def mae_nan(y_true, y_pred):
+#     masked_true = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_true)
+#     masked_pred = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_pred)
+#     return K.mean(abs(masked_pred - masked_true), axis=-1)
+
 def mse_nan(y_true, y_pred):
     masked_true = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_true)
-    masked_pred = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_pred)
+    masked_pred = tf.where(tf.is_nan(y_pred), tf.zeros_like(y_pred), y_pred)
+    # m_true_targs = masked_true[-1]
+    # m_pred_targs = masked_pred[-1]
+    # return K.mean(K.square(m_pred_targs - m_true_targs), axis=-1)
     return K.mean(K.square(masked_pred - masked_true), axis=-1)
 
 def mae_nan(y_true, y_pred):
     masked_true = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_true)
-    masked_pred = tf.where(tf.is_nan(y_true), tf.zeros_like(y_true), y_pred)
+    masked_pred = tf.where(tf.is_nan(y_pred), tf.zeros_like(y_pred), y_pred)
     return K.mean(abs(masked_pred - masked_true), axis=-1)
 
 
