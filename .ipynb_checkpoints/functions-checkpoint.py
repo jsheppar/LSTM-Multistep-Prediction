@@ -14,7 +14,7 @@ from tensorflow.keras.wrappers.scikit_learn import KerasRegressor
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
-from tqdm import trange
+from tqdm.auto import trange
 from tqdm.keras import TqdmCallback
 
 batch = None
@@ -71,8 +71,8 @@ def rescale_no_pp(feature_data, test_targets, predictions, scaling_object_featur
     #     preds_rescale = pd.DataFrame(preds_rescale,index=index)
     #     print('New shape: ' + str(y_test_rescale.shape))
     
-    print('test data new shape: ' + str(y_test_rescale.shape))
-    print('prediction new shape: ' + str(preds_rescale.shape))
+    #print('test data new shape: ' + str(y_test_rescale.shape))
+    #print('prediction new shape: ' + str(preds_rescale.shape))
     return y_test_rescale, preds_rescale
 
 def rescale_w_pp(feature_data, test_targets, predictions, scaling_object, index):
@@ -189,13 +189,13 @@ def lstm_prep_no_pp(data_index, data, target_data, ntargets, ninputs, noutputs=1
     but wanted to avoid overlapping values typical in a moving window approach. 
     Having these non-overlapping values just makes plotting easier. 
     So far I have yet to see a need for more samples, which I understand is why the 
-    moving window approach is typicallyimplemented.'''
+    moving window approach is typically implemented.'''
     
     #target_data = data[:,-ntargets:]
     target_data = target_data
     features = np.empty((ninputs, data.shape[1]), int)
     targets = np.empty((noutputs, ntargets), int)
-    for i in trange(ninputs, (len(data)-noutputs), noutputs): 
+    for i in trange(ninputs, (len(data)-noutputs), noutputs, desc=" data prep ", position=2, leave=False): 
         if show_progress==True:
             print('current index: ' + str(i))
         
@@ -231,7 +231,7 @@ def lstm_prep_w_pp(data_index, data, ntargets, ninputs, noutputs=1, show_progres
     target_data = data[:,-ntargets:]
     features = np.empty((ninputs, data.shape[1]), int)
     targets = np.empty((noutputs, ntargets), int)
-    for i in trange(ninputs, (len(data)-noutputs), noutputs): 
+    for i in trange(ninputs, (len(data)-noutputs), noutputs, desc=" data prep "):#, position=2, leave=True): 
         if show_progress==True:
             print('current index: ' + str(i))
         
@@ -353,6 +353,49 @@ def threshold_rmse_eval(tests, preds, threshold):
         diff_array = np.vstack((diff_array,diffs))
     
     return y_pos_all, pred_pos_all, rmse, diff_array[1:]
+
+def threshold_rmse_eval_rain(tests, preds, rain_data, threshold):
+    rmse = []
+    rain = rain_data.loc[tests.index]
+    
+    #find all values greater than or equal to your threshold value
+    pos_test = np.where(rain >= threshold)
+        
+    for i in range(preds.shape[1]):
+        #grab individual cols
+        data_slice_test = tests.iloc[:,i]
+        data_slice_pred = preds.iloc[:,i]
+        
+        
+        #This avoids a warning for the np.where query a couple of lines down...
+        test_nans = np.where(np.isnan(data_slice_test)) #find nans and replace with dummy value. 
+        tests.iloc[test_nans] = 0
+        
+        pos_test_back = pos_test[0]-6
+        pos_test_for = pos_test[0]+12
+        
+        # print(pos_test[0])
+        # print(pos_test_back)
+        # print(pos_test_for)
+        
+        y_pos = data_slice_test.iloc[pos_test_back[0]:pos_test_for[0]] #get those values from the test data
+        pred_pos = data_slice_pred.iloc[pos_test_back[0]:pos_test_for[0]] #get the equivalent values from the predictions
+        
+        for kk in range(1,len(pos_test_back)):
+            y_pos = pd.concat([y_pos,data_slice_test.iloc[pos_test_back[kk]:pos_test_for[kk]]])
+            pred_pos = pd.concat([pred_pos,data_slice_pred.iloc[pos_test_back[kk]:pos_test_for[kk]]])
+                
+        y_pos = y_pos[~y_pos.index.duplicated(keep='first')]
+        pred_pos = pred_pos[~pred_pos.index.duplicated(keep='first')]
+        
+        #calculate mse, rmse
+        mse = mean_squared_error(y_pos, pred_pos)
+        rmse_val = np.sqrt(mse)
+        
+        #append all values to our respective lists
+        rmse.append(rmse_val)
+
+    return rmse
 
 
 def naive_forecast(test_data,backsteps,forward_steps):
